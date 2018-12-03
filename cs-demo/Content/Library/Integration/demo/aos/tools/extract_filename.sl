@@ -29,4 +29,4 @@ operation:
 
 
   results:
-    - SUCCESS: ${returnCode == '0'}
+    - SUCCESS:
