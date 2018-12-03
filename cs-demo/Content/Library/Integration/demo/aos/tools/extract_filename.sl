@@ -2,7 +2,7 @@
 #!!
 #! @description: Generated Python operation description.
 #!
-#! @input : Generated description
+#! @input input_1: Generated description
 #! @input input_2: Generated description
 #!
 #! @output output_1: Generated description
@@ -22,11 +22,10 @@ operation:
 
   python_action:
     script: |
-      filename = url[url.rfind("/")+1:]
+      filename= url[url.rfind("/")+1:]
 
   outputs:
     - filename: ${filename}
-
 
   results:
     - SUCCESS:
